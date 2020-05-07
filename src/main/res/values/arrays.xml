@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="col1">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+    <string-array name="col2">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+    <string-array name="col3">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+    <string-array name="col4">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+    <string-array name="col5">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+    <string-array name="col6">
+        <item name="row1">0</item>
+        <item name="row2">0</item>
+        <item name="row3">0</item>
+        <item name="row4">0</item>
+        <item name="row5">0</item>
+        <item name="row6">0</item>
+    </string-array>
+</resources>

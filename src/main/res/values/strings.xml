@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Super Yahtzee</string>
+    <string name="score1">1s</string>
+    <string name="score2">2s</string>
+    <string name="score3">3s</string>
+    <string name="score4">4s</string>
+    <string name="score5">5s</string>
+    <string name="score6">6s</string>
+    <string name="times1">1x</string>
+    <string name="times2">2x</string>
+    <string name="times3">3x</string>
+    <string name="times4">4x</string>
+    <string name="times5">5x</string>
+    <string name="times6">6x</string>
+    <string name="kind3">3 of a Kind</string>
+    <string name="kind4">4 of a Kind</string>
+    <string name="fullh">Full House</string>
+    <string name="smalls">Small Straight</string>
+    <string name="larges">Large Straight</string>
+    <string name="yahtzee">Yahtzee</string>
+    <string name="chance">Chance</string>
+    <string name="beforeb">Total /63</string>
+    <string name="uppert">Upper Total</string>
+    <string name="lowert">Lower Total</string>
+    <string name="bonus">Bonus +35</string>
+    <string name="totals">Total x 1</string>
+    <string name="totalsxvalue">Total x Value</string>
+    <string name="grandt">Grand Total</string>
+    <string name="die">%1$d</string>
+    <string name="roll">Roll (3)</string>
+    <string name="reroll">Roll (%1$d)</string>
+    <string name="score">Score</string>
+    <string name="back">Back</string>
+    <string name="submit">Next Roll</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="nex">High Scores</string>
+    <string name="previous">Previous</string>
+    <string name="play">New Game</string>
+
+    <string name="hello_first_fragmen">Super Yahtzee!</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

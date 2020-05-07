@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="34dp">
+
+                    <TableRow android:id="@+id/Top">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_column="0" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="1"
+                            android:text="@string/times1"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="2"
+                            android:text="@string/times2"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="3"
+                            android:text="@string/times3"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="4"
+                            android:text="@string/times4"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="5"
+                            android:text="@string/times5"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_column="6"
+                            android:text="@string/times6"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Ones">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score1" />
+
+                        <Button
+                            android:id="@+id/button1_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick1"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick1"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick1"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick1"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button5_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick1"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_1"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick1"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Twos">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score2" />
+
+                        <Button
+                            android:id="@+id/button1_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick2"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick2"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick2"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick2"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick2"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_2"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick2"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Threes">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score3" />
+
+                        <Button
+                            android:id="@+id/button1_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_3"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Fours">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score4" />
+
+                        <Button
+                            android:id="@+id/button1_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_4"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Fives">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score5" />
+
+                        <Button
+                            android:id="@+id/button1_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick5"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick5"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick5"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick5"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick5"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_5"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick5"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Sixes">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/score6" />
+
+                        <Button
+                            android:id="@+id/button1_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick6"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick6"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick6"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick6"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick6"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_6"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick6"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/BeforeBonus">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/beforeb" />
+
+                        <TextView
+                            android:id="@+id/text1_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_1"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Bonus">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/bonus" />
+
+                        <TextView
+                            android:id="@+id/text1_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_2"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/UpperTotal">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/uppert" />
+
+                        <TextView
+                            android:id="@+id/text1_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_3"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/ThreeOfAK">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/kind3" />
+
+                        <Button
+                            android:id="@+id/button1_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick3ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3ofaKind"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3ofaKind"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_7"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick3ofaKind"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/FourOfAK">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/kind4" />
+
+                        <Button
+                            android:id="@+id/button1_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClick4ofaKind"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4ofaKind"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4ofaKind"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_8"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClick4ofaKind"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/FullHouse">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/fullh" />
+
+                        <Button
+                            android:id="@+id/button1_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickFullHouse"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickFullHouse"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickFullHouse"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickFullHouse"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickFullHouse"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_9"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickFullHouse"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Small_S">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/smalls" />
+
+                        <Button
+                            android:id="@+id/button1_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickSmallStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickSmallStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickSmallStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickSmallStraight"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickSmallStraight"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_10"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickSmallStraight"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Large_S">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/larges" />
+
+                        <Button
+                            android:id="@+id/button1_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickLargeStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickLargeStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickLargeStraight"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickLargeStraight"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickLargeStraight"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_11"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickLargeStraight"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Yahtzee">
+
+                        <TextView
+                            android:padding="3dp"
+                            android:text="@string/yahtzee" />
+
+                        <Button
+                            android:id="@+id/button1_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickYahtzee"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickYahtzee"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickYahtzee"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickYahtzee"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickYahtzee"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button6_12"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickYahtzee"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Chance">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/chance" />
+
+                        <Button
+                            android:id="@+id/button1_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickChance"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button2_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickChance"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button3_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickChance"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button4_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickChance"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/button5_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:onClick="onClickChance"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/button6_13"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:enabled="false"
+                            android:onClick="onClickChance"
+                            android:text="X" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/LowerTotal">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/lowert" />
+
+                        <TextView
+                            android:id="@+id/text1_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_4"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/UpperTotal2">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/uppert" />
+
+                        <TextView
+                            android:id="@+id/text1_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+
+                        <TextView
+                            android:id="@+id/text2_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+
+                        <TextView
+                            android:id="@+id/text3_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+
+                        <TextView
+                            android:id="@+id/text4_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+
+                        <TextView
+                            android:id="@+id/text5_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+
+                        <TextView
+                            android:id="@+id/text6_5"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd"/>
+                    </TableRow>
+
+                    <TableRow android:id="@+id/Total">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/totals" />
+
+                        <TextView
+                            android:id="@+id/text1_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_6"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/TotalxValue">
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="@string/totalsxvalue" />
+
+                        <TextView
+                            android:id="@+id/text1_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text2_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text3_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text4_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text5_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+
+                        <TextView
+                            android:id="@+id/text6_7"
+                            android:padding="3dip"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="24dp"
+                    android:onClick="backClick"
+                    android:text="@string/back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/text8"
+                    app:layout_constraintTop_toBottomOf="@id/tableLayout" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/grandt"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toStartOf="@id/submit"
+                    app:layout_constraintStart_toEndOf="@+id/back"
+                    app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:onClick="submitClick"
+                    android:text="@string/submit"
+                    android:enabled="false"
+                    app:layout_constraintTop_toBottomOf="@id/tableLayout"
+                    app:layout_constraintStart_toEndOf="@id/text8"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>
